@@ -40,6 +40,7 @@ local TextButton_9 = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -64,7 +65,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0, 0, -0.0104529401, 0)
 TextLabel.Size = UDim2.new(0, 614, 0, 29)
 TextLabel.Font = Enum.Font.Highway
-TextLabel.Text = "<font color=\"#0373fc\">Spycrab's</font> Private Hub"
+TextLabel.Text = "Spycrab's Private Hub"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -261,9 +262,12 @@ ImageLabel.Position = UDim2.new(0.0100299949, 0, -0.0104529401, 0)
 ImageLabel.Size = UDim2.new(0, 30, 0, 29)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=11755845039"
 
+UIAspectRatioConstraint.Parent = guifun
+UIAspectRatioConstraint.AspectRatio = 1.149
+
 -- Scripts:
 
-local function AXFQY_fake_script() -- Frame.Smooth GUI Dragging 
+local function KJKF_fake_script() -- Frame.Smooth GUI Dragging 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -320,8 +324,8 @@ local function AXFQY_fake_script() -- Frame.Smooth GUI Dragging
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(AXFQY_fake_script)()
-local function GBJJ_fake_script() -- TextButton.Script 
+coroutine.wrap(KJKF_fake_script)()
+local function PTQWCF_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	function onclick()
@@ -330,8 +334,8 @@ local function GBJJ_fake_script() -- TextButton.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(GBJJ_fake_script)()
-local function PCSQN_fake_script() -- TextButton_2.Script 
+coroutine.wrap(PTQWCF_fake_script)()
+local function ZVBRK_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	function onclick()
@@ -340,8 +344,8 @@ local function PCSQN_fake_script() -- TextButton_2.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(PCSQN_fake_script)()
-local function NMTMNRB_fake_script() -- TextButton_3.Script 
+coroutine.wrap(ZVBRK_fake_script)()
+local function MYIIZ_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	function onclick()
@@ -350,8 +354,8 @@ local function NMTMNRB_fake_script() -- TextButton_3.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(NMTMNRB_fake_script)()
-local function ZVXQ_fake_script() -- TextButton_4.Script 
+coroutine.wrap(MYIIZ_fake_script)()
+local function TIEOLPR_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	function onclick()
@@ -360,8 +364,8 @@ local function ZVXQ_fake_script() -- TextButton_4.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(ZVXQ_fake_script)()
-local function IQPRRNV_fake_script() -- TextButton_5.Script 
+coroutine.wrap(TIEOLPR_fake_script)()
+local function MEJJ_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	function onclick()
@@ -370,8 +374,8 @@ local function IQPRRNV_fake_script() -- TextButton_5.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(IQPRRNV_fake_script)()
-local function NCRD_fake_script() -- TextButton_6.Script 
+coroutine.wrap(MEJJ_fake_script)()
+local function YCZGO_fake_script() -- TextButton_6.Script 
 	local script = Instance.new('Script', TextButton_6)
 
 	function onclick()
@@ -380,8 +384,8 @@ local function NCRD_fake_script() -- TextButton_6.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(NCRD_fake_script)()
-local function LLUJ_fake_script() -- TextButton_7.Script 
+coroutine.wrap(YCZGO_fake_script)()
+local function WRDHF_fake_script() -- TextButton_7.Script 
 	local script = Instance.new('Script', TextButton_7)
 
 	function onclick()
@@ -390,8 +394,8 @@ local function LLUJ_fake_script() -- TextButton_7.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(LLUJ_fake_script)()
-local function WECUZ_fake_script() -- TextButton_8.Script 
+coroutine.wrap(WRDHF_fake_script)()
+local function NIHCUPY_fake_script() -- TextButton_8.Script 
 	local script = Instance.new('Script', TextButton_8)
 
 	function onclick()
@@ -400,8 +404,8 @@ local function WECUZ_fake_script() -- TextButton_8.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(WECUZ_fake_script)()
-local function GRBTNYB_fake_script() -- TextButton_9.Script 
+coroutine.wrap(NIHCUPY_fake_script)()
+local function WXKTOOY_fake_script() -- TextButton_9.Script 
 	local script = Instance.new('Script', TextButton_9)
 
 	function onclick()
@@ -410,4 +414,4 @@ local function GRBTNYB_fake_script() -- TextButton_9.Script
 	
 	script.Parent.MouseButton1Click:connect(onclick)
 end
-coroutine.wrap(GRBTNYB_fake_script)()
+coroutine.wrap(WXKTOOY_fake_script)()
