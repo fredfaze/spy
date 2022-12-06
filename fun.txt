@@ -1,0 +1,413 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local guifun = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Crim = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local fun = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local fun_2 = Instance.new("Frame")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+guifun.Name = "guifun"
+guifun.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+guifun.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = guifun
+Frame.BackgroundColor3 = Color3.fromRGB(255, 219, 74)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0553096384, 0, 0.240196079, 0)
+Frame.Size = UDim2.new(0, 614, 0, 342)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(168, 255, 120)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(120, 255, 214))}
+UIGradient.Parent = Frame
+
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(55, 234, 124)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, -0.0104529401, 0)
+TextLabel.Size = UDim2.new(0, 614, 0, 29)
+TextLabel.Font = Enum.Font.Highway
+TextLabel.Text = "<font color=\"#0373fc\">Spycrab's</font> Private Hub"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+Crim.Name = "Crim"
+Crim.Parent = Frame
+Crim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Crim.Position = UDim2.new(0.0198019817, 0, 0.275261313, 0)
+Crim.Size = UDim2.new(0, 166, 0, 229)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(17, 153, 142)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(56, 239, 125))}
+UIGradient_2.Parent = Crim
+
+UICorner_3.Parent = Crim
+
+TextButton.Parent = Crim
+TextButton.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton.Position = UDim2.new(0.100263759, 0, 0.0458416939, 0)
+TextButton.Size = UDim2.new(0, 128, 0, 39)
+TextButton.Font = Enum.Font.Highway
+TextButton.Text = "Owl hub aimbot"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 23.000
+TextButton.TextWrapped = true
+
+UICorner_4.Parent = TextButton
+
+TextButton_2.Parent = Crim
+TextButton_2.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_2.Position = UDim2.new(0.101128384, 0, 0.384225547, 0)
+TextButton_2.Size = UDim2.new(0, 128, 0, 39)
+TextButton_2.Font = Enum.Font.Highway
+TextButton_2.Text = "Inf yield"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 23.000
+TextButton_2.TextWrapped = true
+
+UICorner_5.Parent = TextButton_2
+
+TextButton_3.Parent = Crim
+TextButton_3.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_3.Position = UDim2.new(0.101726905, 0, 0.757962942, 0)
+TextButton_3.Size = UDim2.new(0, 128, 0, 39)
+TextButton_3.Font = Enum.Font.Highway
+TextButton_3.Text = "Turtle remote spy"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 23.000
+TextButton_3.TextWrapped = true
+
+UICorner_6.Parent = TextButton_3
+
+fun.Name = "fun"
+fun.Parent = Frame
+fun.Active = true
+fun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fun.Position = UDim2.new(0.376150429, 0, 0.275261313, 0)
+fun.Size = UDim2.new(0, 158, 0, 229)
+fun.ZIndex = 2
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(17, 153, 142)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(56, 239, 125))}
+UIGradient_3.Parent = fun
+
+UICorner_7.Parent = fun
+
+TextButton_4.Parent = fun
+TextButton_4.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_4.Position = UDim2.new(0.0675071478, 0, 0.0458417162, 0)
+TextButton_4.Size = UDim2.new(0, 128, 0, 39)
+TextButton_4.Font = Enum.Font.Highway
+TextButton_4.Text = "Talking ben gui"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 23.000
+TextButton_4.TextWrapped = true
+
+UICorner_8.Parent = TextButton_4
+
+TextButton_5.Parent = fun
+TextButton_5.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_5.Position = UDim2.new(0.0675071478, 0, 0.384225547, 0)
+TextButton_5.Size = UDim2.new(0, 128, 0, 39)
+TextButton_5.Font = Enum.Font.Highway
+TextButton_5.Text = "Walk on walls"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 23.000
+TextButton_5.TextWrapped = true
+
+UICorner_9.Parent = TextButton_5
+
+TextButton_6.Parent = fun
+TextButton_6.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_6.Position = UDim2.new(0.0675071478, 0, 0.757962942, 0)
+TextButton_6.Size = UDim2.new(0, 128, 0, 39)
+TextButton_6.Font = Enum.Font.Highway
+TextButton_6.Text = "Rate my avatar screenshare"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 23.000
+TextButton_6.TextWrapped = true
+
+UICorner_10.Parent = TextButton_6
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00198020064, 0, 0.132404178, 0)
+TextLabel_2.Size = UDim2.new(0, 190, 0, 38)
+TextLabel_2.Font = Enum.Font.Highway
+TextLabel_2.Text = "Shooter Stuff"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.347217381, 0, 0.132404178, 0)
+TextLabel_3.Size = UDim2.new(0, 190, 0, 38)
+TextLabel_3.Font = Enum.Font.Highway
+TextLabel_3.Text = "Fun Stuff"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+fun_2.Name = "fun"
+fun_2.Parent = Frame
+fun_2.Active = true
+fun_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fun_2.Position = UDim2.new(0.71765101, 0, 0.275261313, 0)
+fun_2.Size = UDim2.new(0, 158, 0, 229)
+fun_2.ZIndex = 2
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(17, 153, 142)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(56, 239, 125))}
+UIGradient_4.Parent = fun_2
+
+UICorner_11.Parent = fun_2
+
+TextButton_7.Parent = fun_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_7.Position = UDim2.new(0.0675071478, 0, 0.0458417162, 0)
+TextButton_7.Size = UDim2.new(0, 128, 0, 39)
+TextButton_7.Font = Enum.Font.Highway
+TextButton_7.Text = "WIP"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 23.000
+TextButton_7.TextWrapped = true
+
+UICorner_12.Parent = TextButton_7
+
+TextButton_8.Parent = fun_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_8.Position = UDim2.new(0.0675071478, 0, 0.384225547, 0)
+TextButton_8.Size = UDim2.new(0, 128, 0, 39)
+TextButton_8.Font = Enum.Font.Highway
+TextButton_8.Text = "WIP"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 23.000
+TextButton_8.TextWrapped = true
+
+UICorner_13.Parent = TextButton_8
+
+TextButton_9.Parent = fun_2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(74, 137, 255)
+TextButton_9.Position = UDim2.new(0.0675071478, 0, 0.757962942, 0)
+TextButton_9.Size = UDim2.new(0, 128, 0, 39)
+TextButton_9.Font = Enum.Font.Highway
+TextButton_9.Text = "WIP"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 23.000
+TextButton_9.TextWrapped = true
+
+UICorner_14.Parent = TextButton_9
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.690027118, 0, 0.132404178, 0)
+TextLabel_4.Size = UDim2.new(0, 190, 0, 38)
+TextLabel_4.Font = Enum.Font.Highway
+TextLabel_4.Text = "WIP"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0100299949, 0, -0.0104529401, 0)
+ImageLabel.Size = UDim2.new(0, 30, 0, 29)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=11755845039"
+
+-- Scripts:
+
+local function AXFQY_fake_script() -- Frame.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(AXFQY_fake_script)()
+local function GBJJ_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	function onclick()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(GBJJ_fake_script)()
+local function PCSQN_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	function onclick()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(PCSQN_fake_script)()
+local function NMTMNRB_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	function onclick()
+		loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(NMTMNRB_fake_script)()
+local function ZVXQ_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	function onclick()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/benscriptgui.lua"))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(ZVXQ_fake_script)()
+local function IQPRRNV_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	function onclick()
+		loadstring(game:HttpGet("https://pastebin.com/raw/geUZHr7B"))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(IQPRRNV_fake_script)()
+local function NCRD_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	function onclick()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/o7-Fire/Roblox-4/main/rate-my-avatar/screenshare.lua"))();
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(NCRD_fake_script)()
+local function LLUJ_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	function onclick()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/benscriptgui.lua"))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(LLUJ_fake_script)()
+local function WECUZ_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	function onclick()
+		loadstring(game:HttpGet("https://pastebin.com/raw/geUZHr7B"))()
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(WECUZ_fake_script)()
+local function GRBTNYB_fake_script() -- TextButton_9.Script 
+	local script = Instance.new('Script', TextButton_9)
+
+	function onclick()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/o7-Fire/Roblox-4/main/rate-my-avatar/screenshare.lua"))();
+	end
+	
+	script.Parent.MouseButton1Click:connect(onclick)
+end
+coroutine.wrap(GRBTNYB_fake_script)()
